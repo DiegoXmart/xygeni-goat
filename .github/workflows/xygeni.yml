@@ -20,4 +20,4 @@ jobs:
         uses: xygeni/xygeni-action@v5
         with:
           token: ${{ secrets.XYGENI_TOKEN }}
-          command: scan --never-fail
+          command: scan --fail-on=critical
